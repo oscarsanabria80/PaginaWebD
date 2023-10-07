@@ -17,9 +17,8 @@ jobs:
 
       - name: Deploy to Neocities
         run: |
-          export NEOCITIES_USERNAME="${{ secrets.NEOCITIES_USERNAME }}"
-          export NEOCITIES_API_KEY="${{ secrets.NEOCITIES_API_KEY }}"
-          ls site  # Listar el contenido del directorio descomprimido (para asegurarse de que los archivos están en el lugar correcto)
+          NEOCITIES_USERNAME="${{ secrets.NEOCITIES_USERNAME }}"
+          NEOCITIES_API_KEY="${{ secrets.NEOCITIES_API_KEY }}"
           lftp -c "open -u $NEOCITIES_USERNAME,$NEOCITIES_API_KEY ftp://ftp.neocities.org; mirror -R site /"
         env:
           NEOCITIES_USERNAME: ${{ secrets.NEOCITIES_USERNAME }}

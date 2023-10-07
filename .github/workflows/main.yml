@@ -12,7 +12,24 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+- name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: static-site  # Nombre del artefacto creado anteriormente
+          path: site-artifact  # Carpeta donde se descargará el artefacto
+
+      - name: Unzip artifact
+        run: unzip -q site-artifact/static-site.zip -d site  # Descomprimir el artefacto
+
+      - name: Install lftp
+        run: sudo apt-get install lftp -y  # Instalar lftp
+
       - name: Deploy to Neocities
+        run: |
+          export NEOCITIES_USERNAME="${{ secrets.NEOCITIES_USERNAME }}"
+          export NEOCITIES_API_KEY="${{ secrets.NEOCITIES_API_KEY }}"
+          ls site  # Listar el contenido del directorio descomprimido (para asegurarse de que los archivos están en el lugar correcto)
+          lftp -c "open -u $NEOCITIES_USERNAME,$NEOCITIES_API_KEY ftp://ftp.neocities.org; mirror -R site /"
 
         env:
           NEOCITIES_USERNAME: ${{ secrets.NEOCITIES_USERNAME }}

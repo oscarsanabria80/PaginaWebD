@@ -13,8 +13,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy to Neocities
-        run: |
-          curl -T ./NuevoSitio/content/* --ftp-create-dirs -u "$NEOCITIES_USERNAME:$NEOCITIES_API_KEY" "ftp://ftp.neocities.org/"
 
         env:
           NEOCITIES_USERNAME: ${{ secrets.NEOCITIES_USERNAME }}

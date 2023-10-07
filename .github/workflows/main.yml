@@ -12,14 +12,25 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Install Hugo
+        run: |
+          wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.tar.gz
+          tar -zxvf hugo.tar.gz
+          mv hugo /usr/local/bin/hugo
+        shell: bash
+
+      - name: Build Hugo Site
+        run: hugo -s nuevositio -d public
+        working-directory: ${{ github.workspace }}
+
       - name: Install lftp
-        run: sudo apt-get install lftp -y  # Instalar lftp
+        run: sudo apt-get install lftp -y
 
       - name: Deploy to Neocities
         run: |
           NEOCITIES_USERNAME="${{ secrets.NEOCITIES_USERNAME }}"
           NEOCITIES_API_KEY="${{ secrets.NEOCITIES_API_KEY }}"
-          lftp -c "open -u $NEOCITIES_USERNAME,$NEOCITIES_API_KEY ftp://ftp.neocities.org; mirror -R ./ /"
+          lftp -c "open -u $NEOCITIES_USERNAME,$NEOCITIES_API_KEY ftp://ftp.neocities.org; mirror -R ./public /"
         env:
           NEOCITIES_USERNAME: ${{ secrets.NEOCITIES_USERNAME }}
           NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}

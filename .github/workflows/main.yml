@@ -12,15 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Download artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: static-site  # Nombre del artefacto creado anteriormente
-          path: site-artifact  # Carpeta donde se descargará el artefacto
-
-      - name: Unzip artifact
-        run: unzip -q site-artifact/static-site.zip -d site  # Descomprimir el artefacto
-
       - name: Install lftp
         run: sudo apt-get install lftp -y  # Instalar lftp
 

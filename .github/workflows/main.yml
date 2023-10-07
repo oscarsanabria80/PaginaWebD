@@ -14,6 +14,8 @@ jobs:
 
       - name: Deploy to Neocities
         run: |
+	  export NEOCITIES_USERNAME="${{ secrets.NEOCITIES_USERNAME }}"
+          export NEOCITIES_API_KEY="${{ secrets.NEOCITIES_API_KEY }}"
           curl -T ./NuevoSitio/content/* --ftp-create-dirs -u "$NEOCITIES_USERNAME:$NEOCITIES_API_KEY" "ftp://ftp.neocities.org/"
 
         env:

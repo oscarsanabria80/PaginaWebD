@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-- name: Download artifact
+      - name: Download artifact
         uses: actions/download-artifact@v2
         with:
           name: static-site  # Nombre del artefacto creado anteriormente
@@ -30,7 +30,6 @@ jobs:
           export NEOCITIES_API_KEY="${{ secrets.NEOCITIES_API_KEY }}"
           ls site  # Listar el contenido del directorio descomprimido (para asegurarse de que los archivos están en el lugar correcto)
           lftp -c "open -u $NEOCITIES_USERNAME,$NEOCITIES_API_KEY ftp://ftp.neocities.org; mirror -R site /"
-
         env:
           NEOCITIES_USERNAME: ${{ secrets.NEOCITIES_USERNAME }}
           NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}

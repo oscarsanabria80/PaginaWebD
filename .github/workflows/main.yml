@@ -1,0 +1,21 @@
+name: Deploy to Neocities
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy to Neocities
+        run: |
+          curl -T ./* --ftp-create-dirs -u "$NEOCITIES_USERNAME:$NEOCITIES_API_KEY" "ftp://ftp.neocities.org/"
+
+        env:
+          NEOCITIES_USERNAME: ${{ secrets.NEOCITIES_USERNAME }}
+          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}

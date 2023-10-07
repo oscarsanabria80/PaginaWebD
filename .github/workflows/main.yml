@@ -12,17 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install Hugo
-        run: |
-          wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.tar.gz
-          tar -zxvf hugo.tar.gz
-          mv hugo /usr/local/bin/hugo
-        shell: bash
-
-      - name: Build Hugo Site
-        run: hugo -s nuevositio -d public
-        working-directory: ${{ github.workspace }}
-
       - name: Install lftp
         run: sudo apt-get install lftp -y
 

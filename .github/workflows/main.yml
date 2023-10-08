@@ -19,7 +19,7 @@ jobs:
         node-version: 14
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v1
+      Run bcomnes/deploy-to-neocities@v1
       with:
         cleanup: false
         dist_dir: NuevoSitio/public

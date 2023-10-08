@@ -17,9 +17,11 @@ jobs:
 
       - name: Deploy to Neocities
         run: |
-          NEOCITIES_USERNAME="${{ secrets.NEOCITIES_USERNAME }}"
           NEOCITIES_API_KEY="${{ secrets.NEOCITIES_API_KEY }}"
-          lftp -c "open -u $NEOCITIES_USERNAME,$NEOCITIES_API_KEY ftp://ftp.neocities.org; mirror -R ./NuevoSitio / "
+          uses: pr/NuevoSitio@master # Dont use master in production
+          with:
+            api_key: ${{ secrets.NEOCITIES_API_KEY }}
+            cleanup: true
+            dist_dir: public
         env:
-          NEOCITIES_USERNAME: ${{ secrets.NEOCITIES_USERNAME }}
           NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}

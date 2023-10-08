@@ -12,12 +12,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install lftp
-        run: sudo apt-get install lftp -y
+      - name: Set NEOCITIES_API_KEY
+        run: echo "NEOCITIES_API_KEY=${{ secrets.NEOCITIES_API_KEY }}" >> $GITHUB_ENV
 
       - name: Deploy to Neocities
         run: |
-          echo "NEOCITIES_API_KEY=${{ secrets.NEOCITIES_API_KEY }}"
-          pr/NuevoSitio@main # Dont use master in production
+          ls -la pr/NuevoSitio
+          pr/NuevoSitio/action.yml
         env:
           NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}

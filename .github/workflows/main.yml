@@ -14,7 +14,6 @@ jobs:
 
       - name: Deploy to Neocities
         run: |
-          NEOCITIES_API_KEY="${{ secrets.NEOCITIES_API_KEY }}"
           uses: pr/NuevoSitio@main # Dont use master in production
           with:
             api_key: ${{ secrets.NEOCITIES_API_KEY }}

@@ -19,7 +19,7 @@ jobs:
         run: |
           NEOCITIES_USERNAME="${{ secrets.NEOCITIES_USERNAME }}"
           NEOCITIES_API_KEY="${{ secrets.NEOCITIES_API_KEY }}"
-          lftp -c "open -u $NEOCITIES_USERNAME,$NEOCITIES_API_KEY ftp://ftp.neocities.org; mirror -R ./public /"
+          lftp -c "open -u $NEOCITIES_USERNAME,$NEOCITIES_API_KEY ftp://ftp.neocities.org; mirror -R ./NuevoSitio/public / "
         env:
           NEOCITIES_USERNAME: ${{ secrets.NEOCITIES_USERNAME }}
           NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}

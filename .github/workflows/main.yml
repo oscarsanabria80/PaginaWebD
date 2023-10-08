@@ -1,5 +1,6 @@
-name: Deploy to Neocities
+name: Deploy to neocities
 
+# only run on changes to main
 on:
   push:
     branches:
@@ -8,15 +9,13 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set NEOCITIES_API_KEY
-        run: echo "NEOCITIES_API_KEY=${{ secrets.NEOCITIES_API_KEY }}" >> $GITHUB_ENV
-
-      - name: Deploy to Neocities
-        run: |
-          /NuevoSitio
-        env:
-          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+    - uses: actions/checkout@v1
+    # When the dist_dir is ready, deploy it to neocities
+    - name: Deploy to neocities
+      uses: bcomnes/deploy-to-neocities@v1
+      with:
+        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: false
+        dist_dir: public

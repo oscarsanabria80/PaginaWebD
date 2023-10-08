@@ -19,8 +19,8 @@ jobs:
         node-version: 14
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
-      Run bcomnes/deploy-to-neocities@v1
-       with:
+      uses: kognise/deploy-to-neocities@v1
+      with:
         cleanup: false
         dist_dir: NuevoSitio/public
         apiKey: ${{ secrets.NEOCITIES_API_TOKEN }}

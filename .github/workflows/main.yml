@@ -1,5 +1,6 @@
-name: Deploy to neociteis
+name: Deploy to neocities
 
+# only run on changes to main
 on:
   push:
     branches:
@@ -10,17 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        lfs: true
-    - name: Use Node.js
-      uses: actions/setup-node@v2.4.1
-      with:
-        node-version: 14
+    - uses: actions/checkout@v1
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
-      uses: kognise/deploy-to-neocities@v1
+      uses: bcomnes/deploy-to-neocities@v1
       with:
+        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: false
         dist_dir: NuevoSitio/public
-        apiKey: ${{ secrets.NEOCITIES_API_TOKEN }}

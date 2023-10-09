@@ -1,7 +1,6 @@
 ---
 title: "Contacto"
 date: 2023-10-07T12:00:00+00:00
-draft: false
 ---
 
 # Contacto

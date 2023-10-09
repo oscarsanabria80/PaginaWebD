@@ -7,11 +7,11 @@ theme = "ananke"
 
 [[menu.main]]
 name = "Información"
-url = "/pri/primera.md"
+url = "/content/pri/primera.md"
 weight = 3
 
 [[menu.main]]
 name = "contacto"
-url = "/pri/contacto.md"
+url = "/content/pri/contacto.md"
 weight = 3
 

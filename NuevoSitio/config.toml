@@ -3,5 +3,5 @@ languageCode = "en-us"
 title = "Blog personal óscar"
 theme = "ananke"
 
-#params
+[params]
 miimagen = "/public/imagen/gohugo-default-sample-hero-image.jpg"

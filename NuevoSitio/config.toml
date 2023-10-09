@@ -3,15 +3,3 @@ languageCode = "en-us"
 title = "Blog personal óscar"
 theme = "ananke"
 
-#menu
-
-[[menu.main]]
-name = "Información"
-url = "/public/pri"
-weight = 3
-
-[[menu.main]]
-name = "contacto"
-url = "/public/contacto/"
-weight = 3
-

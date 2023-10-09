@@ -4,8 +4,8 @@ title = "Blog personal óscar"
 theme = "ananke"
 
 [[menu.main]]
-name = "Información"
-url = "/primera"
+name = "información"
+url = "/primera/"
 weight = 3
 
 [[menu.main]]

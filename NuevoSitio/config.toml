@@ -3,3 +3,12 @@ languageCode = "en-us"
 title = "Blog personal óscar"
 theme = "ananke"
 
+[[menu.main]]
+name = "Información"
+url = "/primera"
+weight = 3
+
+[[menu.main]]
+name = "Contacto"
+url = "/contacto"
+weight = 3

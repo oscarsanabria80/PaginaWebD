@@ -5,10 +5,10 @@ theme = "ananke"
 
 [[menu.main]]
 name = "información"
-url = "/primera/"
+url = "primera"
 weight = 3
 
 [[menu.main]]
 name = "Contacto"
-url = "/contacto"
+url = "contacto"
 weight = 3

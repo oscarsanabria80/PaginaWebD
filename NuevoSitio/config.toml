@@ -6,6 +6,12 @@ theme = "ananke"
 #menu
 
 [[menu.main]]
-name = "Primera pagina"
-url = "/pri"
+name = "Información"
+url = "/pri/primera.md"
 weight = 3
+
+[[menu.main]]
+name = "contacto"
+url = "/pri/contacto.md"
+weight = 3
+

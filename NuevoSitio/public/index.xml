@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 07 Oct 2023 12:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contacto</title>
-      <link>http://example.org/contacto/</link>
+      <link>http://example.org/pri/contacto/</link>
       <pubDate>Sat, 07 Oct 2023 12:00:00 +0000</pubDate>
       
-      <guid>http://example.org/contacto/</guid>
+      <guid>http://example.org/pri/contacto/</guid>
       <description>Contacto ¡Hola! Estoy encantado de que quieras ponerte en contacto conmigo. Puedes hacerlo a través de los siguientes medios:
 Email Puedes enviarme un correo electrónico a miemail@example.com. Estoy disponible para responder cualquier pregunta que puedas tener.
 Redes Sociales También puedes encontrarme en las redes sociales:

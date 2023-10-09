@@ -4,3 +4,4 @@ title = "Blog personal óscar"
 theme = "ananke"
 
 #params
+miimagen = "/public/imagen/gohugo-default-sample-hero-image.jpg"

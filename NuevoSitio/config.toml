@@ -7,7 +7,7 @@ theme = "ananke"
 
 [[menu.main]]
 name = "Información"
-url = "/content/pri/primera"
+url = "/public/pri/index.html"
 weight = 3
 
 [[menu.main]]

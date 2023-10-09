@@ -4,11 +4,11 @@ title = "Blog personal óscar"
 theme = "ananke"
 
 [[menu.main]]
-name = "información"
-url = "primera"
+name ="información"
+url ="/primera"
 weight = 3
 
 [[menu.main]]
-name = "Contacto"
-url = "contacto"
+name ="Contacto"
+url ="/contacto"
 weight = 3

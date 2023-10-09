@@ -3,5 +3,9 @@ languageCode = "en-us"
 title = "Blog personal óscar"
 theme = "ananke"
 
-[params]
-miimagen = "/public/imagen/gohugo-default-sample-hero-image.jpg"
+#menu
+
+[[menu.main]]
+name = "Primera pagina"
+url = "/content/primera"
+weight = 3

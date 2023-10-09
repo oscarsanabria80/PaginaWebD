@@ -12,6 +12,6 @@ weight = 3
 
 [[menu.main]]
 name = "contacto"
-url = "/content/pri/contacto"
+url = "/public/contacto/"
 weight = 3
 

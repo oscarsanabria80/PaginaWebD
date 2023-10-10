@@ -12,3 +12,8 @@ weight = 3
 name ="Contacto"
 url ="/contacto"
 weight = 3
+
+[[menu.main]]
+name ="Asignaturas"
+url ="/asir"
+weight = 3

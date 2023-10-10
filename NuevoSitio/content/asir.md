@@ -1,7 +1,8 @@
-+++
-title = "Asignaturas de ASIR"
-date = "2023-10-15"
-+++
+---
+title: "Asignatura"
+date: 2023-10-07T12:00:00+00:00
+draft: false
+---
 
 # Bienvenido a la Página de Asignaturas de ASIR
 

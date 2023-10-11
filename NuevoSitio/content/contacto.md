@@ -15,8 +15,8 @@ Puedes enviarme un correo electrónico a [oscar.poncedeleonsanabria80@gmail.com]
 
 También puedes encontrarme en las redes sociales:
 
-- *Twitter:* [@miusuario](https://twitter.com/miusuario)
 - *LinkedIn:* [Mi Perfil en LinkedIn](https://www.linkedin.com/in/oscar-sanabria-92448b27a/)
 - *Instagram:* [@oscarsanabria80](https://www.instagram.com/oscarsanabria80/)
 
+![t](/imagen/con.jpeg)
 

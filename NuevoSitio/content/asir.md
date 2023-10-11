@@ -2,7 +2,6 @@
 title: "Asignaturas"
 date: 2023-10-07T12:00:00+00:00
 draft: false
-showOnHomePage: true
 ---
 
 # Bienvenido a la Página de Asignaturas de ASIR
@@ -10,7 +9,7 @@ showOnHomePage: true
 ## Introducción
 
 En esta página, exploraremos las asignaturas del ciclo formativo de grado superior en Administración de Sistemas Informáticos en Red (ASIR). Este programa educativo es esencial para aquellos que desean adquirir habilidades técnicas en el mundo de la informática y las redes. A continuación, se detallan las asignaturas clave que se estudian en ASIR.
-
+{{< snippet page="Asignaturas" >}}
 ## Asignaturas Obligatorias
 ### Sistemas Operativos
 

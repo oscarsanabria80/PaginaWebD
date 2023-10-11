@@ -1,5 +1,3 @@
-{{ $pages := .Site.RegularPages }}
-{{ range where $pages "Params.showOnHomePage" true }}
-  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-  <p>{{ .Summary | markdownify }}</p>
+{{ with .Site.GetPage (printf "%s.md" .Get "page") }}
+  {{ .Content | safeHTML }}
 {{ end }}

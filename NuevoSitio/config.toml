@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Blog personal óscar"
+title = "Óscar Sanabria"
 theme = "ananke"
 
 [[menu.main]]

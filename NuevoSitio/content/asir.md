@@ -48,7 +48,7 @@ Para obtener más información sobre las asignaturas y recursos relacionados, vi
 
 ## Imágenes
 
-![Red de Computadoras](https://storage.googleapis.com/ilerna_media-cloud/wordpress_ilerna/production/FP-ASIR-1200x385.jpg)
+![Red de Computadoras]()
 Figura 1: Representación visual de una red de computadoras en un entorno empresarial.
 
 ¡Esperamos que esta página te haya proporcionado una visión clara y completa de las asignaturas en el programa ASIR. ¡Buena suerte en tu viaje educativo y profesional en el mundo de la informática y las redes!

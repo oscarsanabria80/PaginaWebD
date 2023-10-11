@@ -17,6 +17,16 @@ Asignaturas Obligatorias Sistemas Operativos Contenidos: Introducción a sistema
     </item>
     
     <item>
+      <title>Blog Personal En Desarrolo</title>
+      <link>http://example.org/primera/</link>
+      <pubDate>Sat, 07 Oct 2023 12:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/primera/</guid>
+      <description>Soy Alumno de Grado Superior ASIR en Gonzalo Nazareno ¡Hola! Mi nombre es [Óscar] y soy alumno del Grado Superior de Administración de Sistemas Informáticos en Red (ASIR) en el instituto Gonzalo Nazareno.
+Acerca de Mí Soy un apasionado de la tecnología y me encuentro en el proceso de aprender y desarrollar habilidades en el campo de la informática y los sistemas. Actualmente, estoy trabajando en un emocionante proyecto como parte de mi formación en ASIR.</description>
+    </item>
+    
+    <item>
       <title>Contacto</title>
       <link>http://example.org/contacto/</link>
       <pubDate>Sat, 07 Oct 2023 12:00:00 +0000</pubDate>
@@ -26,17 +36,6 @@ Asignaturas Obligatorias Sistemas Operativos Contenidos: Introducción a sistema
 Email Puedes enviarme un correo electrónico a oscar.poncedeleonsanabria80@gmail.com. Estoy disponible para responder cualquier pregunta que puedas tener.
 Redes Sociales También puedes encontrarme en las redes sociales:
 LinkedIn: Mi Perfil en LinkedIn Instagram: @oscarsanabria80 </description>
-    </item>
-    
-    <item>
-      <title>Mi Página Chula</title>
-      <link>http://example.org/primera/</link>
-      <pubDate>Sat, 07 Oct 2023 12:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/primera/</guid>
-      <description>Mi Página Chula ¡Bienvenido a mi página chula! Aquí encontrarás contenido interesante y útil sobre varios temas.
-Sección 1: Título de la Sección Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ligula nec velit ultricies hendrerit. Quisque laoreet, ligula vel luctus imperdiet, velit libero consectetur metus, in mattis odio purus ac ligula.
-Subsección 1.1: Un Subtítulo Sed aliquet elit eu dapibus tristique. Fusce feugiat, ligula eu congue varius, tellus felis convallis orci, a tincidunt lacus lacus nec arcu.</description>
     </item>
     
   </channel>

@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/root/pr/NuevoSitio",
+	"sourceRoot": "/home/oscar/pr/NuevoSitio",
 	"sources": [
 		"ananke/css/main.css"
 	],

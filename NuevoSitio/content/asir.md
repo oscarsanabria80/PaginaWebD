@@ -71,7 +71,6 @@ Para obtener más información sobre las asignaturas y recursos relacionados, vi
 
 ## Imágenes
 
-![Red de Computadoras]()
-Figura 1: Representación visual de una red de computadoras en un entorno empresarial.
+![Texto Alternativo](/imagen/asig.jpg)
 
 ¡Esperamos que esta página te haya proporcionado una visión clara y completa de las asignaturas en el programa ASIR. ¡Buena suerte en tu viaje educativo y profesional en el mundo de la informática y las redes!

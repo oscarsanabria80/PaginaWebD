@@ -11,34 +11,57 @@ draft: false
 En esta página, exploraremos las asignaturas del ciclo formativo de grado superior en Administración de Sistemas Informáticos en Red (ASIR). Este programa educativo es esencial para aquellos que desean adquirir habilidades técnicas en el mundo de la informática y las redes. A continuación, se detallan las asignaturas clave que se estudian en ASIR.
 
 ## Asignaturas Obligatorias
+### Sistemas Operativos
 
-### 1. *Sistemas Operativos en Red*
-   - Introducción a los sistemas operativos como Windows Server y Linux.
-   - Configuración y administración de sistemas operativos en un entorno de red.
-   - Resolución de problemas y optimización del rendimiento.
+- *Contenidos:*
+  - Introducción a sistemas operativos
+  - Administración de usuarios y grupos
+  - Gestión de procesos y recursos
+  - Sistemas de archivos y permisos
+  - Virtualización
 
-### 2. *Redes Locales*
-   - Fundamentos de redes y topologías.
-   - Protocolos de red como TCP/IP y DNS.
-   - Configuración y seguridad de redes locales.
+### Redes de Comunicaciones
 
-### 3. *Seguridad Informática*
-   - Amenazas y vulnerabilidades en sistemas informáticos.
-   - Técnicas de cifrado y protección contra malware.
-   - Políticas de seguridad y gestión de riesgos.
+- *Contenidos:*
+  - Fundamentos de redes
+  - Protocolos de red (TCP/IP, DNS, DHCP)
+  - Diseño y configuración de redes
+  - Seguridad en redes
+  - Servicios de red (HTTP, FTP, etc.)
 
-## Asignaturas Optativas
+### Administración de Sistemas
 
-### 1. *Virtualización y Cloud Computing*
-   - Virtualización de servidores y máquinas virtuales.
-   - Implementación y gestión de entornos en la nube.
-   - Uso de herramientas como VMware y AWS.
+- *Contenidos:*
+  - Gestión de sistemas en entornos Windows y Linux
+  - Copias de seguridad y recuperación de datos
+  - Automatización de tareas
+  - Monitorización y optimización del sistema
+  - Resolución de problemas
 
-### 2. *Programación de Sistemas*
-   - Programación en lenguajes como Python y Bash.
-   - Desarrollo de scripts para automatización de tareas.
-   - Integración de scripts en sistemas operativos.
+### Bases de Datos
 
+- *Contenidos:*
+  - Modelos de datos y diseño de bases de datos
+  - SQL y bases de datos relacionales
+  - Administración de sistemas de gestión de bases de datos (MySQL, PostgreSQL, etc.)
+  - Backup y restauración de bases de datos
+
+### Seguridad Informática
+
+- *Contenidos:*
+  - Principios de seguridad informática
+  - Criptografía y seguridad en la comunicación
+  - Seguridad en sistemas y redes
+  - Auditoría y monitorización de seguridad
+  - Ética y legislación informática
+
+### Desarrollo Web y Aplicaciones
+
+- *Contenidos:*
+  - Fundamentos de desarrollo web (HTML, CSS, JavaScript)
+  - Diseño y desarrollo de sitios web
+  - Desarrollo de aplicaciones web dinámicas (por ejemplo, con frameworks como Django o Ruby on Rails)
+  - Introducción a aplicaciones móviles
 ## Enlaces Útiles
 
 Para obtener más información sobre las asignaturas y recursos relacionados, visita los siguientes enlaces:

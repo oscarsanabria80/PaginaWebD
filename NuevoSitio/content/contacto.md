@@ -9,7 +9,7 @@ date: 2023-10-07T12:00:00+00:00
 
 ## Email
 
-Puedes enviarme un correo electrónico a [miemail@example.com](oscar.poncedeleonsanabria80@gmail.com). Estoy disponible para responder cualquier pregunta que puedas tener.
+Puedes enviarme un correo electrónico a [oscar.poncedeleonsanabria80@gmail.com](oscar.poncedeleonsanabria80@gmail.com). Estoy disponible para responder cualquier pregunta que puedas tener.
 
 ## Redes Sociales
 

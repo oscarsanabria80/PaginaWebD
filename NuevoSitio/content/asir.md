@@ -43,14 +43,12 @@ En esta página, exploraremos las asignaturas del ciclo formativo de grado super
 
 Para obtener más información sobre las asignaturas y recursos relacionados, visita los siguientes enlaces:
 
-- [Página Oficial del Centro Educativo](http://www.ejemplo.edu/asir)
-- [Foro de Estudiantes de ASIR](http://www.foroasir.com)
-- [Recursos de Programación en Python](http://www.python.org)
-- [Documentación de Windows Server](http://docs.microsoft.com/es-es/windows-server)
+- [Página Oficial del Centro Educativo](https://blogsaverroes.juntadeandalucia.es/iesgonzalonazareno/)
+- [Foro de Estudiantes de ASIR](https://github.com/oscarsanabria80)
 
 ## Imágenes
 
-![Red de Computadoras](https://via.placeholder.com/500x300)
+![Red de Computadoras](https://storage.googleapis.com/ilerna_media-cloud/wordpress_ilerna/production/FP-ASIR-1200x385.jpg)
 Figura 1: Representación visual de una red de computadoras en un entorno empresarial.
 
 ¡Esperamos que esta página te haya proporcionado una visión clara y completa de las asignaturas en el programa ASIR. ¡Buena suerte en tu viaje educativo y profesional en el mundo de la informática y las redes!

@@ -18,5 +18,5 @@ También puedes encontrarme en las redes sociales:
 - *LinkedIn:* [Mi Perfil en LinkedIn](https://www.linkedin.com/in/oscar-sanabria-92448b27a/)
 - *Instagram:* [@oscarsanabria80](https://www.instagram.com/oscarsanabria80/)
 
-![t](/imagen/con.jpeg)
+![texto](/imagen/con.jpeg)
 

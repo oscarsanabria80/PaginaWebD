@@ -17,3 +17,5 @@ weight = 3
 name ="Asignaturas"
 url ="/asir"
 weight = 3
+
+authorProfileImage ="/NuevoSitio/content/imagen/index.jpg"

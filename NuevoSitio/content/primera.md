@@ -6,7 +6,7 @@ draft: false
 
 # Soy Alumno de Grado Superior ASIR en Gonzalo Nazareno
 
-¡Hola! Mi nombre es [Óscar] y soy alumno del *Grado Superior de Administración de Sistemas Informáticos en Red (ASIR)* en el instituto *Gonzalo Nazareno*.
+¡Hola! Mi nombre es Óscar y soy alumno del *Grado Superior de Administración de Sistemas Informáticos en Red (ASIR)* en el instituto *Gonzalo Nazareno*.
 
 ## Acerca de Mí
 

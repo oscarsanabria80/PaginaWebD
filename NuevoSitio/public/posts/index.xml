@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Óscar Sanabria</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Óscar Sanabria</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Oct 2023 12:00:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implantación de Aplicacines Web</title>
+      <link>http://example.org/posts/ipw/</link>
+      <pubDate>Thu, 12 Oct 2023 12:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/ipw/</guid>
+      <description>Implantación Web ¡Bienvenido a la página dedicada a la asignatura de Implantación De Aplicaciones Web!
+En Desarrollo&amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title>SRI - Servicios de Red e Internet</title>
+      <link>http://example.org/posts/sri/</link>
+      <pubDate>Thu, 12 Oct 2023 12:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/sri/</guid>
+      <description>Servicios de Red e Internet (SRI) ¡Bienvenido a la página dedicada a la asignatura de Servicios de Red e Internet (SRI)!
+En Desarrollo&amp;hellip; </description>
+    </item>
+    
+  </channel>
+</rss>

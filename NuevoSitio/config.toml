@@ -19,6 +19,6 @@ url ="/asir"
 weight = 3
 
 [[menu.main]]
-name ="Prueba"
+name ="pprue"
 url ="/prueba"
 weight = 3

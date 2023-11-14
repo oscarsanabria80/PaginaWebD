@@ -22,3 +22,9 @@ weight = 3
 name ="pprue"
 url ="/prueba"
 weight = 3
+
+[[menu.main]]
+name ="enlace"
+url ="/pru"
+weight = 3
+

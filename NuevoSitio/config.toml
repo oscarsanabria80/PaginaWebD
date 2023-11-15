@@ -17,14 +17,3 @@ weight = 3
 name ="Asignaturas"
 url ="/asir"
 weight = 3
-
-[[menu.main]]
-name ="pprue"
-url ="/prueba"
-weight = 3
-
-[[menu.main]]
-name ="enlace"
-url ="/pru"
-weight = 3
-

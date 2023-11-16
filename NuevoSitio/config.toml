@@ -17,3 +17,9 @@ weight = 3
 name ="Asignaturas"
 url ="/asir"
 weight = 3
+
+
+[[menu.main]]
+name ="Examen"
+url ="/ex"
+weight = 3
